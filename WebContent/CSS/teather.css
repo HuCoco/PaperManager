@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+.top{
+	width:70%;
+	height:45px;
+	margin:0 auto;
+}
+
+.shenfen{
+	float:left;
+}
+.mz{
+	float:left;
+	margin-left:50px;
+	margin-top:10px;
+	
+}
+.shenfen{
+	margin-top:20px;
+	
+}
+.tui{
+	float:right;
+	margin-top:10px;
+	margin-right:5px;
+}
+#massage{
+	width:70%;
+	height:550px;
+	margin:0 auto;
+	margin-top:0px;
+	border:2px solid #00868B;
+}
+#passW, #xue, #ping, #chou{
+	width:80%;
+	height:450px;
+	margin:0 auto;
+	margin-top:15px;
+	
+}
+#passW, #xue, #chou{
+	border:2px solid #DCDCDC;
+}
+#passW table{
+	width:40%;
+	margin:0 auto;
+	margin-top:30px;
+	border-collapse: separate;     /*设置表格的边框是否被合并为一个单一的边框*/
+	border-spacing: 0 15px;    /*第一个是表内水平间距，第二个是垂直间距*/
+	
+}
+
+#passW table tr .td1{
+	text-align:center;
+}
+
+#passW table tr .td2{
+	float:right;
+}
+
+#xue table{
+	margin:0 auto;
+	width:100%;
+	margin-top:10px;
+}
+#xue table tr{
+	height:40px;
+}
+#xue table.timu tr td{
+	text-align:center;
+	border:1px solid gray;
+}
+.zhuyi{
+	margin-top:30px;
+	margin-left:20px;
+}
