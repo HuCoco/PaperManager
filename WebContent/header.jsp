@@ -10,7 +10,10 @@
 <title>Paper Manager Main</title>
 </head>
 <body>
-<%@ include file="/header.jsp" %>
-<%@ include file="/login.jsp" %>
+<div>
+	<div class="header">
+		<div>Paper Sampling And Evaluation System</div>
+	</div>
+</div>
 </body>
 </html>

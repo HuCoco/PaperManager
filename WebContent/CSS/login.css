@@ -1,45 +1,121 @@
 
 * {
-	margin: 0;
-	padding: 0;
-}
-body:before{
-	background-image:url(../img/bg2.jpg);
-	background-repeat:no-repeat;
-	background-size:100% 100%;           
-	width:100%;
-	height:100%;
-	position: absolute;
-	content: "";                            /*      */
-	z-index: -1;                          /*-1 可以当背景*/
-    -webkit-filter: blur(3px);
-    filter: blur(3px);                   /*高斯模糊*/
+    box-sizing: border-box;
 }
 
+form {
+	display: block;
+    margin-top: 0em;
+}
 
-.bg2{
-	width:400px;
-	height:250px;
-	
-	position: absolute;
-    left:0;
-    right:0;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-	background:rgba(255,255,255,0.3);
-	box-shadow:3px 3px 5px;          /*边框模糊（水平，垂直，模糊值）*/
-	top:80px;
+.auth-form {
+    width: 340px;
+    margin: 0 auto;
 }
-table{
-	width:320px;
-	height:200px;
-	margin-left:50px;
-	margin-top:20px;
+
+.auth-form label {
+    display: block;
+    margin-bottom: 7px;
 }
-table tr td{
-	
-	hieght:50px;
-	text-align:center;
-	
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-repeat: repeat-x;
+    background-position: -1px -1px;
+    background-size: 110% 110%;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 0.25em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.auth-form .btn {
+    margin-top: 20px;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg, #34d058 0%, #28a745 90%);
+}
+
+.create-account-callout {
+    padding: 15px 20px;
+    text-align: center;
+    border: 1px solid #d8dee2;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: 600;
+}
+
+.label-link {
+    float: right;
+    font-size: 12px;
+}
+
+.auth-form-header {
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+    text-shadow: none;
+    background-color: #a26c6c00;
+    border: 0;
+}
+
+.mt-3 {
+    margin-top: 16px !important;
+}
+
+.p-0 {
+	font-size: 14px;
+    padding: 0 !important;
+}
+
+.auth-form-body {
+    border-top: 1px solid #d8dee2;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 14px;
+    background-color: #fff;
+    border: 1px solid #d8dee2;
+}
+
+.input-block {
+    display: block;
+    width: 100%;
+}
+.form-control, .form-select {
+    min-height: 34px;
+    padding: 6px 8px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #24292e;
+    vertical-align: middle;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: right 8px center;
+    border: 1px solid #d1d5da;
+    border-radius: 3px;
+    outline: none;
+    box-shadow: inset 0 1px 2px rgba(27,31,35,0.075);
 }
